@@ -1,0 +1,48 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Add stall/owner photo to About section and restyle section heading",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "summary": "Add a full-width stall/owner photo to the About section using the generated static asset, styled with rounded corners, warm brown/gold border or shadow, and generous whitespace",
+      "acceptanceCriteria": [
+        "The stall/owner photo is visible in the About/Our Story section",
+        "The image uses the generated asset from frontend/public/assets/generated/",
+        "The image has rounded corners and a subtle warm brown/gold decorative border or drop shadow",
+        "The image is responsive and does not overflow on mobile viewports",
+        "Generous whitespace surrounds the image, preserving the luxury aesthetic"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/About.tsx",
+          "operation": "modify",
+          "description": "Add an img element rendering frontend/public/assets/generated/coffee-craft-stall-owner.dim_1200x800.png below the introductory paragraph and above the stats grid. Apply Tailwind classes for rounded corners (rounded-xl or rounded-2xl), a warm brown/gold shadow (shadow-2xl with brown-700/20 or custom ring-4 ring-brown-400/30), max-width constraints (max-w-4xl mx-auto), and generous vertical margin (my-12 or my-16). Ensure the image is responsive with w-full and object-cover or object-contain as appropriate. Consider wrapping in a figure or div with additional padding/background if needed for the luxury aesthetic."
+        }
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "summary": "Restyle the 'Our Story' section heading with a luxurious 3D embossed typographic treatment using layered warm brown/gold text-shadow and add a decorative gold rule beneath it",
+      "acceptanceCriteria": [
+        "The 'Our Story' heading in the About section uses Playfair Display font",
+        "The heading has a multi-layer text-shadow using warm brown/gold tones creating a 3D or embossed effect",
+        "The visual style feels premium and consistent with the overall luxury brown/cream palette",
+        "A decorative gold rule or ornamental element is present beneath or near the heading",
+        "The heading is clearly legible against the warm cream background"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/About.tsx",
+          "operation": "modify",
+          "description": "Apply a custom className to the 'Our Story' h2 heading that includes Playfair Display font (font-playfair), and a multi-layer CSS text-shadow for 3D embossed effect. Define a new utility class in index.css (e.g., .text-luxury-3d) with text-shadow layers using warm brown/gold hex values (#C8A882, #A0522D, #6B3F1F) at progressive offsets (e.g., 1px 1px 2px #C8A882, 2px 2px 4px #A0522D, 3px 3px 6px #6B3F1F). Add a decorative horizontal rule or ornamental SVG element immediately beneath the heading, styled with a warm gold color (border-brown-400 or bg-brown-400) and centered with mx-auto, limited width (w-24 or w-32), and a thin height (h-1 or h-0.5). Ensure adequate spacing (mt-4 mb-8) around the heading and rule."
+        },
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Add a new CSS utility class .text-luxury-3d in the @layer components section with a multi-layer text-shadow property using warm brown/gold tones to create a raised, embossed 3D effect. Use values like text-shadow: 1px 1px 2px #C8A882, 2px 2px 4px #A0522D, 3px 3px 6px rgba(107, 63, 31, 0.4); to match the luxury aesthetic of the hero heading. Ensure the class is reusable and can be applied to Playfair Display headings throughout the app."
+        }
+      ]
+    }
+  ]
+}

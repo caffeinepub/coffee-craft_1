@@ -1,0 +1,13 @@
+{
+  "frontend/index.html": "HTML entry point with Google Fonts preconnect and import for Playfair Display and Inter fonts, plus the standard React root div.",
+  "frontend/src/index.css": "Global design system with OKLCH color tokens, warm brown/gold glow utilities, 3D text-shadow classes, and a new `.text-luxury-3d` class providing a multi-layer warm brown/gold embossed text-shadow for the \"Our Story\" heading.",
+  "frontend/tailwind.config.js": "Extended Tailwind config updated with a warm brown-and-white luxury palette (craft-brown, craft-gold, craft-cream, craft-ink, craft-muted, craft-border tokens), brown glow box-shadow tokens replacing red ones, and Playfair Display/Inter font families.",
+  "frontend/src/components/Navbar.tsx": "Fixed navigation bar updated with the Coffee Craft logo image, 3D embossed text-shadow on the brand name, warm brown/gold color scheme, and scroll-aware background transition from transparent to cream.",
+  "frontend/src/components/Hero.tsx": "Full-viewport hero section updated with warm brown/gold 3D layered text-shadow on \"COFFEE CRAFT\" headline, gold accent decorative lines replacing red, and warm brown vignette overlay.",
+  "frontend/src/components/About.tsx": "About/Our Story section with a new luxury \"Our Story\" heading featuring 3D embossed text-shadow and a decorative gold rule, followed by the stall/owner photo with a warm gold gradient frame, rounded corners, and a figcaption — all preserving the existing body copy, decorative accents, and pillars grid.",
+  "frontend/src/components/Location.tsx": "Location section updated with brown/gold glow on the MapPin icon, brown dividers, and warm cream-dark background replacing the previous cream and red styling.",
+  "frontend/src/components/Contact.tsx": "Contact section updated with brown/gold glow effects on Instagram and WhatsApp icons, brown dividers, and brown accent colors replacing all red elements.",
+  "frontend/src/components/Footer.tsx": "Minimal dark footer updated with gold-tinted brand name featuring subtle 3D text-shadow, gold heart attribution icon, and brown/gold hover states replacing red accents.",
+  "frontend/src/App.tsx": "Root application component composing Navbar, Hero, About, Location, Contact, Footer, and the new FloatingSocialIcons component on a warm cream background.",
+  "frontend/src/components/FloatingSocialIcons.tsx": "New fixed floating action cluster component rendering circular WhatsApp and Instagram icon buttons at the bottom-right corner with warm brown/gold glow on hover, linking to the provided social URLs."
+}

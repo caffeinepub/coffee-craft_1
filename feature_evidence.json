@@ -1,0 +1,42 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-in-the-about-our-story-section-of-frontend-src-components-about-tsx-add-a-full-width-or-prominently-placed-photo-of-the-coffee-stall-with-the-owner-the-image-should-be-rendered-using-the-generated-static-asset-from-frontend-public-assets-generated-coffee-craft-stall-owner-dim-1200x800-png-style-it-with-rounded-corners-a-subtle-warm-brown-gold-border-or-shadow-consistent-with-the-luxury-brown-palette-and-generous-whitespace-around-it-place-the-image-below-the-introductory-text-and-above-or-beside-the-stats-grid",
+      "featureTitle": "In the About/Our Story section of frontend/src/components/About.tsx, add a full-width or prominently placed photo of the coffee stall with the owner. The image should be rendered using the generated static asset from frontend/public/assets/generated/coffee-craft-stall-owner.dim_1200x800.png. Style it with rounded corners, a subtle warm brown/gold border or shadow consistent with the luxury brown palette, and generous whitespace around it. Place the image below the introductory text and above (or beside) the stats grid.",
+      "files": [
+        "frontend/src/components/About.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-restyle-the-our-story-or-about-us-section-heading-in-frontend-src-components-about-tsx-to-have-a-luxurious-high-end-typographic-treatment-apply-a-layered-css-text-shadow-using-warm-brown-gold-tones-e-g-c8a882-a0522d-6b3f1f-to-give-the-playfair-display-heading-a-raised-embossed-3d-appearance-similar-in-style-to-the-coffee-craft-hero-heading-optionally-add-a-thin-decorative-gold-rule-or-ornamental-flourish-beneath-the-heading-for-extra-opulence",
+      "featureTitle": "Restyle the 'Our Story' (or 'About Us') section heading in frontend/src/components/About.tsx to have a luxurious, high-end typographic treatment. Apply a layered CSS text-shadow using warm brown/gold tones (e.g., #C8A882, #A0522D, #6B3F1F) to give the Playfair Display heading a raised, embossed 3D appearance — similar in style to the 'COFFEE CRAFT' hero heading. Optionally add a thin decorative gold rule or ornamental flourish beneath the heading for extra opulence.",
+      "files": [
+        "frontend/src/components/About.tsx",
+        "frontend/src/index.css"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-14"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

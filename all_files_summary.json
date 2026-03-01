@@ -1,0 +1,21 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as the backend entry point with no implemented functionality.",
+  "feature_evidence.json": "Feature evidence report documenting two implemented features in About.tsx: adding a stall/owner photo with luxury styling, and applying a 3D embossed text-shadow to the 'Our Story' heading.",
+  "frontend-file-summaries.txt": "JSON map of all frontend source files to short descriptions summarizing each file's role and styling choices in the Coffee Craft app.",
+  "frontend/index.css": "Base Tailwind CSS file defining OKLCH CSS custom property tokens for light and dark themes used by shadcn-ui components.",
+  "frontend/index.html": "HTML entry point that loads Playfair Display and Inter fonts from Google Fonts and mounts the React app at the root div.",
+  "frontend/src/App.tsx": "Root React component that composes Navbar, Hero, About, Location, Contact, Footer, and FloatingSocialIcons on a warm cream background.",
+  "frontend/src/components/About.tsx": "About/Our Story section featuring a luxury 3D embossed heading with a decorative gold rule, a framed stall/owner photo with warm gradient border, and the brand's founding story copy.",
+  "frontend/src/components/Contact.tsx": "Contact section with Instagram and WhatsApp links styled with brown/gold glow icon buttons and the brand's social handles.",
+  "frontend/src/components/FloatingSocialIcons.tsx": "Fixed floating action cluster rendering circular WhatsApp and Instagram buttons at the bottom-right corner with brown/gold glow hover effects.",
+  "frontend/src/components/Footer.tsx": "Minimal dark footer displaying the copyright year, a gold-tinted brand name with subtle 3D text-shadow, and a caffeine.ai attribution link.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section with a coffee background image, overlays, animated 3D-styled headline ('COFFEE CRAFT'), tagline, and a scroll-down button.",
+  "frontend/src/components/Location.tsx": "Location section displaying the café's address in West Bengal, India, along with hours and dine-in/takeaway info, styled with warm brown decorative elements.",
+  "frontend/src/components/Navbar.tsx": "Fixed navigation bar with scroll-aware styling, logo, brand name, desktop nav links with hover underlines, and a mobile hamburger menu with smooth-scroll behavior.",
+  "frontend/src/hooks/useActor.ts": "Custom hook that creates and caches an ICP backend actor (authenticated or anonymous) using React Query, and invalidates dependent queries when the identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides an Internet Identity authentication context and hook, managing AuthClient creation, login/logout flow, identity persistence, and status tracking.",
+  "frontend/src/index.css": "Global CSS file defining Tailwind base/component/utility layers, OKLCH CSS custom properties for a warm cream luxury palette, and reusable glow/animation utility classes.",
+  "frontend/src/main.tsx": "Application entry point that mounts the React app wrapped with QueryClientProvider and InternetIdentityProvider.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration for the Coffee Craft frontend, defining a luxury brown/cream color palette, custom fonts (Playfair Display, Inter), glow box-shadows, and enabling typography, container-queries, and animate plugins.",
+  "project_state.json": "Project state snapshot (version 7) describing the Coffee Craft single-page luxury website's architecture, brand details, existing features, known issues, and image requirements for build planning."
+}
